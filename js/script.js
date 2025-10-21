@@ -125,8 +125,7 @@ function showModal({ movie }) {
      
     </div>
   `;
-
-  // Inserta en el DOM
+    
   document.body.insertAdjacentHTML('beforeend', modalHTML);
   const offcanvasEl = document.getElementById('offcanvasTop');
 
