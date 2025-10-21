@@ -1,0 +1,53 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+h2{
+    color: white
+}
+small{
+    color: rgba(255, 255, 255, 0.616)
+}
+
+li{
+    border: 1px solid rgba(247, 243, 243, 0.336);
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lista{
+    display: grid;
+    gap: 50px;
+}
+
+.fa-star:not(.checked){
+    color: rgba(241, 239, 239, 0.685);
+}
